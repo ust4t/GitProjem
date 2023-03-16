@@ -8,10 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var sayiDizim = [Int]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        sayiDizim.append(10)
+        sayiDizim.append(20)
+        
+        for sayilar in sayiDizim
+        {
+            print(sayilar)
+        }
+        
+        
     }
 
 
